@@ -6,6 +6,7 @@ import java.util.List;
 import alura.com.br.agenda.model.Aluno;
 
 public class AlunoDAO {
+
     private final static List<Aluno> alunos = new ArrayList<>();
 
     public void salva(Aluno aluno) {
